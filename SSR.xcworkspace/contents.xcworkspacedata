@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/catalina/Code/V2rayU/SSR.xcodeproj">
+      location = "group:/Users/catalina/Code/SSR/SSR.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SSR.xcodeproj">
    </FileRef>
 </Workspace>
