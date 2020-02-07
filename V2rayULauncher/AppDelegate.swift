@@ -26,7 +26,7 @@ class V2rayULauncherApplication: NSApplication {
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     public func applicationDidFinishLaunching(_ notification: Notification) {
-        let mainAppIdentifier = "net.yanue.V2rayU"
+        let mainAppIdentifier = "top.ourfor.net"
         let running = NSWorkspace.shared.runningApplications
         var alreadyRunning = false
         
@@ -38,7 +38,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         
         if !alreadyRunning {
-            DistributedNotificationCenter.default().addObserver(NSApp, selector: #selector(NSApplication.terminate(_:)), name: Notification.Name("terminateV2rayU"), object: mainAppIdentifier)
+            DistributedNotificationCenter.default().addObserver(NSApp, selector: #selector(NSApplication.terminate(_:)), name: Notification.Name("terminateSSR"), object: mainAppIdentifier)
             
             let path = Bundle.main.bundlePath as NSString
             var components = path.pathComponents
@@ -46,7 +46,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             components.removeLast()
             components.removeLast()
             components.append("MacOS")
-            components.append("V2rayU")
+            components.append("SSR")
             
             let newPath = NSString.path(withComponents: components)
             NSWorkspace.shared.launchApplication(newPath)

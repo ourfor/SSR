@@ -1,9 +1,9 @@
 //
 //  Menu.swift
-//  V2rayU
+//  SSR
 //
-//  Created by yanue on 2018/10/16.
-//  Copyright © 2018 yanue. All rights reserved.
+//  Created by ourfor on 2020/2/7.
+//  Copyright © 2020 yanue. All rights reserved.
 //
 
 import Cocoa
@@ -68,15 +68,15 @@ func SwitchProxyMode() {
     switch runMode {
     case .pac:
         menuController.switchRunMode(runMode: .global)
-        makeToast(message: "V2rayU: global Mode")
+        makeToast(message: "SSR: global Mode")
         break
     case .global:
         menuController.switchRunMode(runMode: .manual)
-        makeToast(message: "V2rayU: manual Mode")
+        makeToast(message: "SSR: manual Mode")
         break
     case .manual:
         menuController.switchRunMode(runMode: .pac)
-        makeToast(message: "V2rayU: pac Mode")
+        makeToast(message: "SSR: pac Mode")
         break
 
     default: break
@@ -194,8 +194,8 @@ class MenuController: NSObject, NSMenuDelegate {
     }
 
     func setStatusOff() {
-        v2rayStatusItem.title = "v2ray-core: Off" + ("  (v" + appVersion + ")")
-        toggleV2rayItem.title = "Turn v2ray-core On"
+        v2rayStatusItem.title = "Proxy: Off" + ("  (v" + appVersion + ")")
+        toggleV2rayItem.title = "Turn Proxy On"
 
         if let button = statusItem.button {
             button.image = NSImage(named: NSImage.Name("IconOff"))
@@ -206,8 +206,8 @@ class MenuController: NSObject, NSMenuDelegate {
     }
 
     func setStatusOn(runMode: RunMode) {
-        v2rayStatusItem.title = "v2ray-core: On" + ("  (v" + appVersion + ")")
-        toggleV2rayItem.title = "Turn v2ray-core Off"
+        v2rayStatusItem.title = "Proxy: On" + ("  (v" + appVersion + ")")
+        toggleV2rayItem.title = "Turn Proxy Off"
 
         var iconName = "IconOn"
 
@@ -342,8 +342,8 @@ class MenuController: NSObject, NSMenuDelegate {
             return
         }
 
-        // config window title is "V2rayU"
-        if object.title == "V2rayU" {
+        // config window title is "🍓 科学上网 🍑"
+        if object.title == "🍓 科学上网 🍑" {
             _ = self.showDock(state: false)
         }
     }
@@ -365,7 +365,7 @@ class MenuController: NSObject, NSMenuDelegate {
     }
 
     @IBAction func goHelp(_ sender: NSMenuItem) {
-        guard let url = URL(string: "https://github.com/yanue/v2rayu/wiki") else {
+        guard let url = URL(string: "https://github.com/ourfor/SSR/wiki") else {
             return
         }
         NSWorkspace.shared.open(url)

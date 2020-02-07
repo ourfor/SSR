@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6604E43C21798F2A00E54AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6604E43B21798F2A00E54AE1 /* AppDelegate.swift */; };
-		6604E447217990CD00E54AE1 /* V2rayULauncher.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 6604E43921798F2900E54AE1 /* V2rayULauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6604E447217990CD00E54AE1 /* SSRLauncher.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 6604E43921798F2900E54AE1 /* SSRLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6608D9DA2182C69D00A0E0DD /* v2rayStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D9D92182C69D00A0E0DD /* v2rayStruct.swift */; };
 		6608D9DC2182C6D200A0E0DD /* v2rayInbound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D9DB2182C6D200A0E0DD /* v2rayInbound.swift */; };
 		6608D9DE2182C92D00A0E0DD /* v2rayOutbound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D9DD2182C92D00A0E0DD /* v2rayOutbound.swift */; };
@@ -74,7 +74,7 @@
 			dstPath = Contents/Library/LoginItems;
 			dstSubfolderSpec = 1;
 			files = (
-				6604E447217990CD00E54AE1 /* V2rayULauncher.app in Copy Files */,
+				6604E447217990CD00E54AE1 /* SSRLauncher.app in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,7 +115,7 @@
 /* Begin PBXFileReference section */
 		230294B5D1C5B1E0D311F3E2 /* libPods-V2rayUTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V2rayUTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B27CD97A6B24986CAF0BFD /* Pods-V2rayU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2rayU.release.xcconfig"; path = "Pods/Target Support Files/Pods-V2rayU/Pods-V2rayU.release.xcconfig"; sourceTree = "<group>"; };
-		6604E43921798F2900E54AE1 /* V2rayULauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V2rayULauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604E43921798F2900E54AE1 /* SSRLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSRLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604E43B21798F2A00E54AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6604E44221798F2A00E54AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604E44321798F2A00E54AE1 /* V2rayULauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = V2rayULauncher.entitlements; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		6608D9DB2182C6D200A0E0DD /* v2rayInbound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2rayInbound.swift; sourceTree = "<group>"; };
 		6608D9DD2182C92D00A0E0DD /* v2rayOutbound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2rayOutbound.swift; sourceTree = "<group>"; };
 		6608D9E12182C9C100A0E0DD /* v2rayStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2rayStream.swift; sourceTree = "<group>"; };
-		660C8C9F2181CBAA00896361 /* V2rayUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = V2rayUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660C8C9F2181CBAA00896361 /* SSRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660C8CA12181CBAA00896361 /* V2rayUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2rayUTests.swift; sourceTree = "<group>"; };
 		660C8CA32181CBAA00896361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		660D0E59216E0158000C2922 /* V2rayServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = V2rayServer.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
@@ -138,7 +138,7 @@
 		6646669221CBC0860094F0B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		664666A021CBD6C60094F0B7 /* libPods-V2rayUTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-V2rayUTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664B95DD217062A500DBC941 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Pods/Alamofire; sourceTree = "<group>"; };
-		664EB371216C9A5E00B6AE0D /* V2rayU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V2rayU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		664EB371216C9A5E00B6AE0D /* SSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		664EB374216C9A5E00B6AE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		664EB376216C9A5F00B6AE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664EB379216C9A5F00B6AE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		66F302A122AAA0A600FCA4E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../zh-Hans.lproj/PreferenceGeneral.strings"; sourceTree = "<group>"; };
 		66F302A222AAA0A700FCA4E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../zh-Hans.lproj/PreferencePac.strings"; sourceTree = "<group>"; };
 		66F302A322AAA0A700FCA4E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../zh-Hans.lproj/PreferenceSubscribe.strings"; sourceTree = "<group>"; };
-		66F302B722AAA95000FCA4E2 /* V2rayUTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = V2rayUTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F302B722AAA95000FCA4E2 /* SSRTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SSRTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F411B421CA8921007AAC10 /* cmd.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = cmd.sh; sourceTree = "<group>"; };
 		66FEAD45217D75FC009DECF9 /* release.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = release.sh; sourceTree = "<group>"; };
 		66FEAD4F217EE14C009DECF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ConfigWindow.xib; sourceTree = "<group>"; };
@@ -301,10 +301,10 @@
 		664EB372216C9A5E00B6AE0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				664EB371216C9A5E00B6AE0D /* V2rayU.app */,
-				6604E43921798F2900E54AE1 /* V2rayULauncher.app */,
-				660C8C9F2181CBAA00896361 /* V2rayUTests.xctest */,
-				66F302B722AAA95000FCA4E2 /* V2rayUTool */,
+				664EB371216C9A5E00B6AE0D /* SSR.app */,
+				6604E43921798F2900E54AE1 /* SSRLauncher.app */,
+				660C8C9F2181CBAA00896361 /* SSRTests.xctest */,
+				66F302B722AAA95000FCA4E2 /* SSRTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -408,9 +408,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6604E43821798F2900E54AE1 /* V2rayULauncher */ = {
+		6604E43821798F2900E54AE1 /* SSRLauncher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6604E44421798F2B00E54AE1 /* Build configuration list for PBXNativeTarget "V2rayULauncher" */;
+			buildConfigurationList = 6604E44421798F2B00E54AE1 /* Build configuration list for PBXNativeTarget "SSRLauncher" */;
 			buildPhases = (
 				6604E43521798F2900E54AE1 /* Sources */,
 				6604E43621798F2900E54AE1 /* Frameworks */,
@@ -420,14 +420,14 @@
 			);
 			dependencies = (
 			);
-			name = V2rayULauncher;
+			name = SSRLauncher;
 			productName = V2rayULauncher;
-			productReference = 6604E43921798F2900E54AE1 /* V2rayULauncher.app */;
+			productReference = 6604E43921798F2900E54AE1 /* SSRLauncher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		660C8C9E2181CBAA00896361 /* V2rayUTests */ = {
+		660C8C9E2181CBAA00896361 /* SSRTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 660C8CA82181CBAA00896361 /* Build configuration list for PBXNativeTarget "V2rayUTests" */;
+			buildConfigurationList = 660C8CA82181CBAA00896361 /* Build configuration list for PBXNativeTarget "SSRTests" */;
 			buildPhases = (
 				660C8C9B2181CBAA00896361 /* Sources */,
 				660C8C9C2181CBAA00896361 /* Frameworks */,
@@ -438,14 +438,14 @@
 			dependencies = (
 				660C8CA52181CBAA00896361 /* PBXTargetDependency */,
 			);
-			name = V2rayUTests;
+			name = SSRTests;
 			productName = V2rayUTests;
-			productReference = 660C8C9F2181CBAA00896361 /* V2rayUTests.xctest */;
+			productReference = 660C8C9F2181CBAA00896361 /* SSRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		664EB370216C9A5E00B6AE0D /* V2rayU */ = {
+		664EB370216C9A5E00B6AE0D /* SSR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 664EB37F216C9A5F00B6AE0D /* Build configuration list for PBXNativeTarget "V2rayU" */;
+			buildConfigurationList = 664EB37F216C9A5F00B6AE0D /* Build configuration list for PBXNativeTarget "SSR" */;
 			buildPhases = (
 				BB037DA2D56EB66A112B0778 /* [CP] Check Pods Manifest.lock */,
 				664EB36D216C9A5E00B6AE0D /* Sources */,
@@ -460,14 +460,14 @@
 			);
 			dependencies = (
 			);
-			name = V2rayU;
+			name = SSR;
 			productName = V2rayU;
-			productReference = 664EB371216C9A5E00B6AE0D /* V2rayU.app */;
+			productReference = 664EB371216C9A5E00B6AE0D /* SSR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		66F302B622AAA95000FCA4E2 /* V2rayUTool */ = {
+		66F302B622AAA95000FCA4E2 /* SSRTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66F302BD22AAA95000FCA4E2 /* Build configuration list for PBXNativeTarget "V2rayUTool" */;
+			buildConfigurationList = 66F302BD22AAA95000FCA4E2 /* Build configuration list for PBXNativeTarget "SSRTool" */;
 			buildPhases = (
 				66F302B322AAA95000FCA4E2 /* Sources */,
 				66F302B422AAA95000FCA4E2 /* Frameworks */,
@@ -477,9 +477,9 @@
 			);
 			dependencies = (
 			);
-			name = V2rayUTool;
+			name = SSRTool;
 			productName = V2rayUTool;
-			productReference = 66F302B722AAA95000FCA4E2 /* V2rayUTool */;
+			productReference = 66F302B722AAA95000FCA4E2 /* SSRTool */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -490,7 +490,7 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = yanue;
 				TargetAttributes = {
 					6604E43821798F2900E54AE1 = {
@@ -516,7 +516,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 664EB36C216C9A5E00B6AE0D /* Build configuration list for PBXProject "V2rayU" */;
+			buildConfigurationList = 664EB36C216C9A5E00B6AE0D /* Build configuration list for PBXProject "SSR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -531,10 +531,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				664EB370216C9A5E00B6AE0D /* V2rayU */,
-				6604E43821798F2900E54AE1 /* V2rayULauncher */,
-				660C8C9E2181CBAA00896361 /* V2rayUTests */,
-				66F302B622AAA95000FCA4E2 /* V2rayUTool */,
+				664EB370216C9A5E00B6AE0D /* SSR */,
+				6604E43821798F2900E54AE1 /* SSRLauncher */,
+				660C8C9E2181CBAA00896361 /* SSRTests */,
+				66F302B622AAA95000FCA4E2 /* SSRTool */,
 			);
 		};
 /* End PBXProject section */
@@ -680,7 +680,7 @@
 /* Begin PBXTargetDependency section */
 		660C8CA52181CBAA00896361 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 664EB370216C9A5E00B6AE0D /* V2rayU */;
+			target = 664EB370216C9A5E00B6AE0D /* SSR */;
 			targetProxy = 660C8CA42181CBAA00896361 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -796,7 +796,8 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = V2rayULauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -818,7 +819,8 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = V2rayULauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -839,7 +841,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
 				INFOPLIST_FILE = V2rayUTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -850,7 +852,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.v2rayu.V2rayUTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V2rayU.app/Contents/MacOS/V2rayU";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSR.app/Contents/MacOS/SSR";
 			};
 			name = Debug;
 		};
@@ -861,7 +863,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
 				INFOPLIST_FILE = V2rayUTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -872,7 +874,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.v2rayu.V2rayUTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V2rayU.app/Contents/MacOS/V2rayU";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSR.app/Contents/MacOS/SSR";
 			};
 			name = Release;
 		};
@@ -1010,14 +1012,15 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.5.0;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = V2rayU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.V2rayU;
+				PRODUCT_BUNDLE_IDENTIFIER = top.ourfor.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -1038,14 +1041,15 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.5.0;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = V2rayU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.V2rayU;
+				PRODUCT_BUNDLE_IDENTIFIER = top.ourfor.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -1060,8 +1064,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = top.ourfor.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1072,8 +1078,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = SNZWBGWPDW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = top.ourfor.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1082,7 +1090,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6604E44421798F2B00E54AE1 /* Build configuration list for PBXNativeTarget "V2rayULauncher" */ = {
+		6604E44421798F2B00E54AE1 /* Build configuration list for PBXNativeTarget "SSRLauncher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6604E44521798F2B00E54AE1 /* Debug */,
@@ -1091,7 +1099,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		660C8CA82181CBAA00896361 /* Build configuration list for PBXNativeTarget "V2rayUTests" */ = {
+		660C8CA82181CBAA00896361 /* Build configuration list for PBXNativeTarget "SSRTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				660C8CA62181CBAA00896361 /* Debug */,
@@ -1100,7 +1108,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		664EB36C216C9A5E00B6AE0D /* Build configuration list for PBXProject "V2rayU" */ = {
+		664EB36C216C9A5E00B6AE0D /* Build configuration list for PBXProject "SSR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				664EB37D216C9A5F00B6AE0D /* Debug */,
@@ -1109,7 +1117,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		664EB37F216C9A5F00B6AE0D /* Build configuration list for PBXNativeTarget "V2rayU" */ = {
+		664EB37F216C9A5F00B6AE0D /* Build configuration list for PBXNativeTarget "SSR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				664EB380216C9A5F00B6AE0D /* Debug */,
@@ -1118,7 +1126,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66F302BD22AAA95000FCA4E2 /* Build configuration list for PBXNativeTarget "V2rayUTool" */ = {
+		66F302BD22AAA95000FCA4E2 /* Build configuration list for PBXNativeTarget "SSRTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66F302BB22AAA95000FCA4E2 /* Debug */,

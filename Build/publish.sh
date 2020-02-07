@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #  publish.sh
-#  V2rayU
+#  SSR
 #
-#  Created by yanue on 2019/7/18.
-#  Copyright © 2019 yanue. All rights reserved.
+#  Created by ourfor on 2020/2/7.
+#  Copyright © 2019 ourfor. All rights reserved.
 source ./release.sh
 
 

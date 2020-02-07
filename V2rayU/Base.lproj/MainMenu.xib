@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -12,13 +12,13 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="V2rayU" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SSR" customModuleProvider="target">
             <connections>
                 <outlet property="statusMenu" destination="9n3-TW-9ur" id="RLL-Ev-lPF"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
-        <customObject id="hcZ-V7-Dui" userLabel="MenuController" customClass="MenuController" customModule="V2rayU" customModuleProvider="target">
+        <customObject id="hcZ-V7-Dui" userLabel="MenuController" customClass="MenuController" customModule="SSR" customModuleProvider="target">
             <connections>
                 <outlet property="globalMode" destination="sZL-Iu-xAt" id="Iz8-oL-8dU"/>
                 <outlet property="manualMode" destination="hTu-27-5OL" id="lHt-aQ-ZNU"/>
@@ -29,12 +29,12 @@
                 <outlet property="v2rayStatusItem" destination="P34-uO-Vwf" id="F8I-tt-922"/>
             </connections>
         </customObject>
-        <menu title="V2rayU" id="9n3-TW-9ur" userLabel="stateMenu">
+        <menu title="SSR" id="9n3-TW-9ur" userLabel="stateMenu">
             <items>
-                <menuItem title="V2ray-Core: On" enabled="NO" id="P34-uO-Vwf">
+                <menuItem title="Proxy: On" enabled="NO" id="P34-uO-Vwf">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
-                <menuItem title="Turn v2ray-core Off" id="SML-EF-rdT" userLabel="Turn v2ray-core On">
+                <menuItem title="Turn Proxy Off" id="SML-EF-rdT" userLabel="Turn v2ray-core On">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="start:" target="hcZ-V7-Dui" id="XIR-lL-vV2"/>
@@ -146,7 +146,7 @@
             </items>
             <point key="canvasLocation" x="-553" y="52"/>
         </menu>
-        <menu title="V2rayU" systemMenu="main" id="hzc-Fw-ODy">
+        <menu title="SSR" systemMenu="main" id="hzc-Fw-ODy">
             <items>
                 <menuItem title="Edit" id="2CF-Be-R2r">
                     <modifierMask key="keyEquivalentModifierMask"/>

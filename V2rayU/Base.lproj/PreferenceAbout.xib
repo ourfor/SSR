@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="PreferenceAboutViewController" customModule="V2rayU" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferenceAboutViewController" customModule="SSR" customModuleProvider="target">
             <connections>
                 <outlet property="V2rayCoreVersion" destination="gws-ge-QLa" id="0Gu-lx-VkO"/>
                 <outlet property="VersionLabel" destination="GfP-Xl-Rdf" id="tPf-dh-zDO"/>
@@ -19,9 +19,9 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YO4-aZ-Rwa">
-                    <rect key="frame" x="127" y="228" width="62" height="19"/>
+                    <rect key="frame" x="139" y="228" width="38" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="V2rayU" id="09i-pj-m0K">
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="SSR" id="09i-pj-m0K">
                         <font key="font" metaFont="system" size="16"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -37,18 +37,18 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Te4-BT-hGI">
-                    <rect key="frame" x="105" y="145" width="152" height="16"/>
+                    <rect key="frame" x="112" y="145" width="145" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="github.com/yanue/v2rayU" id="Qby-y7-vli">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="github.com/ourfor/ssr" id="Qby-y7-vli">
                         <font key="font" metaFont="systemUltraLight" size="12"/>
                         <color key="textColor" red="0.297284359" green="0.53554502910000001" blue="0.87699653200000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e05-pp-m5L">
-                    <rect key="frame" x="104" y="122" width="122" height="16"/>
+                    <rect key="frame" x="112" y="122" width="145" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="yanue@outlook.com" id="Guc-nt-FeY">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="ourfor@qq.com" id="Guc-nt-FeY">
                         <font key="font" metaFont="systemUltraLight" size="12"/>
                         <color key="textColor" red="0.297284359" green="0.53554502910000001" blue="0.87699653200000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -73,19 +73,19 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hji-yO-Zff">
-                    <rect key="frame" x="105" y="99" width="106" height="16"/>
+                    <rect key="frame" x="113" y="99" width="144" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="github.com/v2ray" id="Sw8-ch-1M9">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="blog.ourfor.top" id="Sw8-ch-1M9">
                         <font key="font" metaFont="systemUltraLight" size="12"/>
                         <color key="textColor" red="0.297284359" green="0.53554502910000001" blue="0.87699653200000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="huF-fy-g3j">
-                    <rect key="frame" x="80" y="48" width="156" height="14"/>
+                    <rect key="frame" x="79" y="48" width="158" height="14"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Copyright © 2019 yanue.net" id="bCA-au-e3o">
-                        <font key="font" metaFont="smallSystem"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Copyright © 2020 ourfor.top" id="bCA-au-e3o">
+                        <font key="font" metaFont="message" size="11"/>
                         <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>

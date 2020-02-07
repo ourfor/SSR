@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="PreferenceGeneralViewController" customModule="V2rayU" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferenceGeneralViewController" customModule="SSR" customModuleProvider="target">
             <connections>
                 <outlet property="autoCheckVersion" destination="m2S-Mu-rFM" id="GQD-EA-vJj"/>
                 <outlet property="autoClearLog" destination="hIN-yp-Qul" id="Iib-Re-pDz"/>
@@ -20,9 +20,9 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87d-wY-Ocw">
-                    <rect key="frame" x="64" y="225" width="163" height="18"/>
+                    <rect key="frame" x="64" y="225" width="143" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="check" title="Launch V2rayU at login" bezelStyle="regularSquare" imagePosition="left" inset="2" id="NZE-cI-j04">
+                    <buttonCell key="cell" type="check" title="Launch SSR at login" bezelStyle="regularSquare" imagePosition="left" inset="2" id="NZE-cI-j04">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                         <connections>
@@ -32,7 +32,6 @@
                 </button>
                 <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" fixedFrame="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UJB-Wh-dgF">
                     <rect key="frame" x="66" y="199" width="214" height="14"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <subviews>
                         <button horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tgw-Vy-D08" userLabel="Check for Updates automutically">
                             <rect key="frame" x="-2" y="-2" width="218" height="18"/>
@@ -53,11 +52,10 @@
                     </customSpacing>
                 </stackView>
                 <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" fixedFrame="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJk-22-Sun">
-                    <rect key="frame" x="66" y="156" width="257" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <rect key="frame" x="66" y="158" width="257" height="28"/>
                     <subviews>
                         <button horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="59o-dL-xSh" userLabel="Check for Updates automutically">
-                            <rect key="frame" x="-2" y="-2" width="261" height="34"/>
+                            <rect key="frame" x="-2" y="-2" width="261" height="32"/>
                             <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="hIN-yp-Qul">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <string key="title">Automatically clear logs after launching
@@ -113,7 +111,7 @@
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vtN-0c-sip">
                     <rect key="frame" x="64" y="117" width="174" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Toggle V2ray On/Off:" id="0rn-re-Wn3">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Toggle SSR On/Off:" id="0rn-re-Wn3">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>

@@ -21,7 +21,7 @@
 "3Hg-b3-phw.title" = "轉換大寫";
 
 /* Class = "NSMenuItem"; title = "Show Logs..."; ObjectID = "52m-v5-TzY"; */
-"52m-v5-TzY.title" = "查看v2ray日誌";
+"52m-v5-TzY.title" = "查看ssr日誌";
 
 /* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "6aH-vb-Jom"; */
 "6aH-vb-Jom.title" = "智能破折号";
@@ -45,7 +45,7 @@
 "8zL-Er-HLk.title" = "全选";
 
 /* Class = "NSMenu"; title = "V2rayU"; ObjectID = "9n3-TW-9ur"; */
-"9n3-TW-9ur.title" = "V2rayU";
+"9n3-TW-9ur.title" = "🍓 科学上网 🍑";
 
 /* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "9rd-LX-kku"; */
 "9rd-LX-kku.title" = "从选中文本查找";
@@ -89,7 +89,7 @@
 /* Class = "NSMenu"; title = "Find"; ObjectID = "SDb-YB-42i"; */
 "SDb-YB-42i.title" = "Find";
 
-/* Class = "NSMenuItem"; title = "Turn v2ray-core Off"; ObjectID = "SML-EF-rdT"; */
+/* Class = "NSMenuItem"; title = "Turn Proxy Off"; ObjectID = "SML-EF-rdT"; */
 "SML-EF-rdT.title" = "停用v2ray-core";
 
 /* Class = "NSMenu"; title = "Substitutions"; ObjectID = "VH3-Bb-D9P"; */
@@ -153,7 +153,7 @@
 "hWR-vJ-0Au.title" = "幫助";
 
 /* Class = "NSMenu"; title = "V2rayU"; ObjectID = "hzc-Fw-ODy"; */
-"hzc-Fw-ODy.title" = "V2rayU";
+"hzc-Fw-ODy.title" = "🍓 科学上网 🍑";
 
 /* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "iKs-PU-Nho"; */
 "iKs-PU-Nho.title" = "Correct Spelling Automatically";

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  V2rayU
 //
-//  Created by yanue on 2018/10/9.
+//  Created by ourfor on 2020/2/7.
 //  Copyright © 2018 yanue. All rights reserved.
 //
 
@@ -66,9 +66,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("working dir", path)
 
         // /Users/yanue/Library/Developer/Xcode/DerivedData/V2rayU-cqwhqdwsnxsplqgolfwfywalmjps/Build/Products/Debug
-        // working dir must be: /Applications/V2rayU.app
-        if !(path.contains("Developer/Xcode") || path.contains("/Applications/V2rayU.app")) {
-            makeToast(message: "Please drag 'V2rayU' to '/Applications' directory", displayDuration: 5.0)
+        // working dir must be: /Applications/SSR.app
+        if !(path.contains("Developer/Xcode") || path.contains("/Applications/SSR.app") || path=="/") {
+            makeToast(message: "Please drag 'SSR' to '/Applications' directory, the path now is \(path)", displayDuration: 5.0)
             DispatchQueue.main.asyncAfter(deadline: .now() + 5.5) {
                 NSApplication.shared.terminate(self)
             }

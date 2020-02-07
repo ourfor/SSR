@@ -1,12 +1,12 @@
 #!/bin/bash
 # 打包,发布
 
-APP_NAME="V2rayU"
+APP_NAME="SSR"
 INFOPLIST_FILE="Info.plist"
 BASE_DIR=$HOME/swift/V2rayU
 BUILD_DIR=${BASE_DIR}/Build
-V2rayU_ARCHIVE=${BUILD_DIR}/V2rayU.xcarchive
-V2rayU_RELEASE=${BUILD_DIR}/release
+SSR_ARCHIVE=${BUILD_DIR}/SSR.xcarchive
+SSR_RELEASE=${BUILD_DIR}/release
 APP_Version=$(sed -n '/MARKETING_VERSION/{s/MARKETING_VERSION = //;s/;//;s/^[[:space:]]*//;p;q;}' ../V2rayU.xcodeproj/project.pbxproj)
 DMG_FINAL="${APP_NAME}.dmg"
 APP_TITLE="${APP_NAME} - V${APP_Version}"
@@ -18,28 +18,28 @@ function updatePlistVersion() {
 }
 
 function build() {
-    echo "Building V2rayU."${APP_Version}
+    echo "Building SSR."${APP_Version}
     echo "Cleaning up old archive & app..."
-    rm -rf ${V2rayU_ARCHIVE} ${V2rayU_RELEASE}
+    rm -rf ${SSR_ARCHIVE} ${SSR_RELEASE}
 
     echo "Building archive... please wait a minute"
-    xcodebuild -workspace ${BASE_DIR}/V2rayU.xcworkspace -config Release -scheme V2rayU -archivePath ${V2rayU_ARCHIVE} archive
+    xcodebuild -workspace ${BASE_DIR}/SSR.xcworkspace -config Release -scheme V2rayU -archivePath ${SSR_ARCHIVE} archive
 
     echo "Exporting archive..."
-    xcodebuild -archivePath ${V2rayU_ARCHIVE} -exportArchive -exportPath ${V2rayU_RELEASE} -exportOptionsPlist ./build.plist
+    xcodebuild -archivePath ${SSR_ARCHIVE} -exportArchive -exportPath ${SSR_RELEASE} -exportOptionsPlist ./build.plist
 
     echo "Cleaning up archive..."
-    rm -rf ${V2rayU_ARCHIVE}
+    rm -rf ${SSR_ARCHIVE}
 
-    chmod -R 755 "${V2rayU_RELEASE}/${APP_NAME}.app/Contents/Resources/v2ray-core"
-    chmod -R 755 "${V2rayU_RELEASE}/${APP_NAME}.app/Contents/Resources/unzip.sh"
+    chmod -R 755 "${SSR_RELEASE}/${APP_NAME}.app/Contents/Resources/v2ray-core"
+    chmod -R 755 "${SSR_RELEASE}/${APP_NAME}.app/Contents/Resources/unzip.sh"
 }
 
 function createDmg() {
     umount "/Volumes/${APP_NAME}"
 
     ############# 1 #############
-    APP_PATH="${V2rayU_RELEASE}/${APP_NAME}.app"
+    APP_PATH="${SSR_RELEASE}/${APP_NAME}.app"
     DMG_BACKGROUND_IMG="dmg-bg@2x.png"
 
     DMG_TMP="${APP_NAME}-temp.dmg"
@@ -111,7 +111,7 @@ function generateAppcast() {
     if [[ -z "$description" ]]; then
         description="bug fix"
     fi
-    downloadUrl="https://github.com/yanue/V2rayU/releases/download/${APP_Version}/V2rayU.dmg"
+    downloadUrl="https://github.com/ourfor/SSR/releases/download/${APP_Version}/SSR.dmg"
     # https://github.com/c9s/appcast.git
     ${AppCastDir}/appcast -append\
         -dsaSignature="PW8pDnr5VZkmC93gZjUDlHI8gkJSspPoDU3DdhsMkps"\
@@ -195,7 +195,7 @@ function makeDmg() {
     exit;;
     esac
 
-    rm -fr ${DMG_FINAL} ${V2rayU_RELEASE}
+    rm -fr ${DMG_FINAL} ${SSR_RELEASE}
     updatePlistVersion
     downloadV2ray
     build
@@ -208,7 +208,7 @@ function publish() {
     generateAppcast ${release_note}
     commit
 
-    rm -rf "${DMG_TMP}" "${APP_PATH}" "${V2rayU_RELEASE}"
+    rm -rf "${DMG_TMP}" "${APP_PATH}" "${SSR_RELEASE}"
 }
 
 
